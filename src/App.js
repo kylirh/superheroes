@@ -23,6 +23,7 @@ class App extends Component {
         { id: 10, name: "Tony Stark", persona: "Iron Man", active: true, selected: false, },
       ].sort((a, b) => a.name.localeCompare(b.name)),
       showInactive: true,
+      showEmail: false,
     };
   }
 
