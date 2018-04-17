@@ -8,11 +8,11 @@ class HeroTable extends Component {
     const sortBy = this.props.onSort;
 
     return (
-        <table>
-          <thead>
+        <table className="hero-table">
+          <thead className="hero-table-header">
             <tr>
               <td></td>
-              <td className="sortable" onClick={() => sortBy("id")}>ID</td>
+              <td className="cell-center sortable" onClick={() => sortBy("id")}>ID</td>
               <td className="sortable" onClick={() => sortBy("name")}>Name</td>
               <td className="sortable" onClick={() => sortBy("persona")}>Persona</td>
               <td>Status</td>

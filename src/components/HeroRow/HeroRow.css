@@ -1,0 +1,12 @@
+.hero-row {
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.row-selected {
+    background: #e0fceb;
+}
+
+.cell-center {
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.hero-toolbar {
+    background: #666;
+    color: #fff;
+    padding: 10px 4px;
+    font-weight: bold;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.email-button {
+    margin-left: 50px;
+}

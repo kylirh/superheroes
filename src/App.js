@@ -70,16 +70,18 @@ class App extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h1 className="title">Super Awesome Superheroes!</h1>
         </header>
-        <HeroTable
-          heroes={filteredHeroes}
-          onSort={(key) => this.handleSort(key)}
-          onSelect={(hero) => this.handleSelect(hero)}
-        />
-        <HeroToolbar
-          onFilter={() => this.handleFilter()}
-          showInactive={this.state.showInactive}
-          onShowEmail={() => this.setMailVisibility(true)}
-        />
+        <div className="content">
+          <HeroTable
+            heroes={filteredHeroes}
+            onSort={(key) => this.handleSort(key)}
+            onSelect={(hero) => this.handleSelect(hero)}
+          />
+          <HeroToolbar
+            onFilter={() => this.handleFilter()}
+            showInactive={this.state.showInactive}
+            onShowEmail={() => this.setMailVisibility(true)}
+          />
+        </div>
         {this.state.showEmail ? <HeroMail recipients={selectedHeroes} onSend={() => this.setMailVisibility(false)} onCancel={() => this.setMailVisibility(false)} /> : null}
       </div>
     );

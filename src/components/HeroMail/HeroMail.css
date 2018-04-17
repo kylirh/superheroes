@@ -1,0 +1,75 @@
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mail {
+    background: #fff;
+    width: 700px;
+    border: solid 1px #000;
+    padding: 0;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    text-align: left;
+    position: relative;
+}
+
+.mail-header {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background: #666;
+    border-bottom: solid 1px #333;
+}
+
+.mail-recipients {
+    padding: 10px 0;
+    border-bottom: solid 1px #aaa;
+}
+
+.mail-subject {
+    padding: 0px 0;
+    border-bottom: solid 1px #aaa;
+}
+
+.mail-label {
+    color: #999;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.mail-message {
+    font-family: sans-serif;
+    font-size: 1.1em;
+    width: 100%;
+    min-height: 200px;
+    border:0;
+    padding: 20px;
+}
+
+.mail-input {
+    border: 0;
+    background: transparent;
+    width: calc(100% - 130px);
+    padding: 10px;
+}
+
+.mail-buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.mail-buttons :first-child {
+    margin-right: 20px;
+}

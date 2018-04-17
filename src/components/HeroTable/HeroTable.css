@@ -1,3 +1,35 @@
-.sortable {
+.hero-table {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.hero-table td {
+    padding: 6px 2px;
+}
+
+.hero-table-header td {
+    background: #666;
+    color: #fff;
+    padding: 10px 4px;
+    font-weight: bold;
+}
+
+.hero-table-header td:first-child {
+    border-top-left-radius: 6px;
+}
+
+.hero-table-header td:last-child {
+    border-top-right-radius: 6px;
+}
+
+.hero-table-header .sortable {
     cursor: pointer;
+}
+
+.hero-table-header .sortable:hover {
+    background: #444;
 }
