@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HeroTable from './components/HeroTable/HeroTable';
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class App extends Component {
         { id: 8, name: "Logan", persona: "Wolverine", active: true },
         { id: 9, name: "Peter Parker", persona: "Spider Man", active: true },
         { id: 10, name: "Tony Stark", persona: "Iron Man", active: true },
-      ]
+      ].sort((a, b) => a.name.localeCompare(b.name))
     };
   }
 
@@ -29,6 +30,7 @@ class App extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h1 className="title">Super Awesome Superheroes!</h1>
         </header>
+        <HeroTable heroes={this.state.heroes} />
       </div>
     );
   }
