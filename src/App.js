@@ -46,6 +46,8 @@ class App extends Component {
   }
 
   render() {
+    const filteredHeroes = this.state.heroes.filter(hero => hero.active || hero.active === !this.state.showInactive);
+
     return (
       <div className="app">
         <header className="header">
@@ -57,9 +59,8 @@ class App extends Component {
           showInactive={this.state.showInactive}
         />
         <HeroTable
-          heroes={this.state.heroes}
+          heroes={filteredHeroes}
           onSort={(key) => this.handleSort(key)}
-          showInactive={this.state.showInactive}
         />
       </div>
     );
