@@ -16,3 +16,7 @@ This is a fun little React project. Here's what we are going to do:
 7. When the button is clicked, the page collects the info of the users who were selected by the checkbox and adds a simple form to the page with a textbox labeled "Subject" and a textarea labeled "Message".
 
 8. On successful filling in of the form, and clicking of an "Email" button, do an alert on the page with the recipients, subject, and message shown. (Don't worry about actually sending off emails)
+
+9. Make the app not look ugly.
+
+10. Write some unit tests! Maybe do this first.
