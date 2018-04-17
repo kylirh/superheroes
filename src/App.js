@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HeroTable from './components/HeroTable/HeroTable';
+import HeroToolbar from './components/HeroToolbar/HeroToolbar';
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +20,8 @@ class App extends Component {
         { id: 8, name: "Logan", persona: "Wolverine", active: true },
         { id: 9, name: "Peter Parker", persona: "Spider Man", active: true },
         { id: 10, name: "Tony Stark", persona: "Iron Man", active: true },
-      ].sort((a, b) => a.name.localeCompare(b.name))
+      ].sort((a, b) => a.name.localeCompare(b.name)),
+      showInactive: true,
     };
   }
 
@@ -37,6 +39,12 @@ class App extends Component {
     };
   }
 
+  handleToggleActive() {
+    this.setState({
+      showInactive: !this.state.showInactive
+    });
+  }
+
   render() {
     return (
       <div className="app">
@@ -44,9 +52,14 @@ class App extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h1 className="title">Super Awesome Superheroes!</h1>
         </header>
+        <HeroToolbar
+          onToggleActive={() => this.handleToggleActive()}
+          showInactive={this.state.showInactive}
+        />
         <HeroTable
           heroes={this.state.heroes}
           onSort={(key) => this.handleSort(key)}
+          showInactive={this.state.showInactive}
         />
       </div>
     );

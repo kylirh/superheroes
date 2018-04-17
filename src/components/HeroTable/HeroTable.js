@@ -8,7 +8,7 @@ class HeroTable extends Component {
     const sortBy = this.props.onSort;
 
     return (
-        <table>
+        <table className={this.props.showInactive ? "show-all-heroes" : "hide-inactive-heroes"}>
           <thead>
             <tr>
               <td></td>
