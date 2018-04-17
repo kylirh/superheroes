@@ -23,6 +23,20 @@ class App extends Component {
     };
   }
 
+  handleSort(key) {
+    const heroesCopy = this.state.heroes.slice();
+    heroesCopy.sort(this.compareBy(key));
+    this.setState({heroes: heroesCopy});
+  }
+
+  compareBy(key) {
+    return (a, b) => {
+      if (a[key] < b[key]) return -1;
+      if (a[key] > b[key]) return 1;
+      return 0;
+    };
+  }
+
   render() {
     return (
       <div className="app">
@@ -30,7 +44,10 @@ class App extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h1 className="title">Super Awesome Superheroes!</h1>
         </header>
-        <HeroTable heroes={this.state.heroes} />
+        <HeroTable
+          heroes={this.state.heroes}
+          onSort={(key) => this.handleSort(key)}
+        />
       </div>
     );
   }
