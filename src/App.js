@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import HeroTable from './components/HeroTable/HeroTable';
 import HeroToolbar from './components/HeroToolbar/HeroToolbar';
+import HeroMail from './components/HeroMail/HeroMail';
 
 class App extends Component {
   constructor(props) {
@@ -52,8 +53,15 @@ class App extends Component {
     });
   }
 
+  setMailVisibility(visible) {
+    this.setState({
+      showEmail: visible
+    });
+  }
+
   render() {
     const filteredHeroes = this.state.heroes.filter(hero => hero.active || hero.active === !this.state.showInactive);
+    const selectedHeroes = filteredHeroes.filter(hero => hero.selected);
 
     return (
       <div className="app">
@@ -61,15 +69,17 @@ class App extends Component {
           <img src={logo} className="logo" alt="logo" />
           <h1 className="title">Super Awesome Superheroes!</h1>
         </header>
-        <HeroToolbar
-          onFilter={() => this.handleFilter()}
-          showInactive={this.state.showInactive}
-        />
         <HeroTable
           heroes={filteredHeroes}
           onSort={(key) => this.handleSort(key)}
           onSelect={(hero) => this.handleSelect(hero)}
         />
+        <HeroToolbar
+          onFilter={() => this.handleFilter()}
+          showInactive={this.state.showInactive}
+          onShowEmail={() => this.setMailVisibility(true)}
+        />
+        {this.state.showEmail ? <HeroMail recipients={selectedHeroes} onSend={() => this.setMailVisibility(false)} onCancel={() => this.setMailVisibility(false)} /> : null}
       </div>
     );
   }
