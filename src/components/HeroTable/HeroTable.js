@@ -4,7 +4,7 @@ import './HeroTable.css'
 
 class HeroTable extends Component {
   render() {
-    const rows = this.props.heroes.map(hero => <HeroRow hero={hero} key={hero.id} />);
+    const rows = this.props.heroes.map(hero => <HeroRow hero={hero} key={hero.id} onSelect={this.props.onSelect} />);
     const sortBy = this.props.onSort;
 
     return (

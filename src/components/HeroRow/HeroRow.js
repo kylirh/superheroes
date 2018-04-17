@@ -6,7 +6,7 @@ class HeroRow extends Component {
 
     return (
       <tr>
-        <td><input type="checkbox" checked={false} /></td>
+        <td><input type="checkbox" checked={hero.selected} onChange={() => this.props.onSelect(hero)} /></td>
         <td>{hero.id}</td>
         <td>{hero.name}</td>
         <td>{hero.persona}</td>
