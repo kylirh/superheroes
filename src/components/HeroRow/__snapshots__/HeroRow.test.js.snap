@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroRow renders correctly 1`] = `
+<tr
+  className="hero-row"
+>
+  <td
+    className="cell-center"
+  >
+    <input
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </td>
+  <td
+    className="cell-center"
+  >
+    1
+  </td>
+  <td>
+    Konrad Sanro
+  </td>
+  <td>
+    Retwoner
+  </td>
+  <td>
+    Inactive
+  </td>
+</tr>
+`;
