@@ -8,8 +8,11 @@ class Heroes extends Component {
   constructor(props) {
     super(props);
 
+    const heroesList = props.list.slice().sort((a, b) => a.name.localeCompare(b.name));
+    heroesList.forEach(element => element.selected = false);
+
     this.state = {
-      heroes: props.list.slice().sort((a, b) => a.name.localeCompare(b.name)),
+      heroes: heroesList,
       showInactive: true,
       showEmail: false,
     };
