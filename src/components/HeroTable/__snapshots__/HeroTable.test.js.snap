@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroTable renders correctly 1`] = `
+<table
+  className="hero-table"
+>
+  <thead
+    className="hero-table-header"
+  >
+    <tr>
+      <td />
+      <td
+        className="cell-center sortable"
+        onClick={[Function]}
+      >
+        ID
+      </td>
+      <td
+        className="sortable"
+        onClick={[Function]}
+      >
+        Name
+      </td>
+      <td
+        className="sortable"
+        onClick={[Function]}
+      >
+        Persona
+      </td>
+      <td>
+        Status
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <HeroRow
+      hero={
+        Object {
+          "active": false,
+          "id": 1,
+          "name": "Konrad Sanro",
+          "persona": "Retwoner",
+        }
+      }
+      key="1"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": false,
+          "id": 2,
+          "name": "Rowan Bredal",
+          "persona": "Hyprona",
+        }
+      }
+      key="2"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": false,
+          "id": 3,
+          "name": "Ulani Kywann",
+          "persona": "The Archkay",
+        }
+      }
+      key="3"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": false,
+          "id": 4,
+          "name": "Broadrick Ikon",
+          "persona": "E-NINJA",
+        }
+      }
+      key="4"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": false,
+          "id": 5,
+          "name": "Stuard Jedrek",
+          "persona": "Blades",
+        }
+      }
+      key="5"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": true,
+          "id": 6,
+          "name": "Bruce Wayne",
+          "persona": "Batman",
+        }
+      }
+      key="6"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": true,
+          "id": 7,
+          "name": "Clark Kent",
+          "persona": "Superman",
+        }
+      }
+      key="7"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": true,
+          "id": 8,
+          "name": "Logan",
+          "persona": "Wolverine",
+        }
+      }
+      key="8"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": true,
+          "id": 9,
+          "name": "Peter Parker",
+          "persona": "Spider Man",
+        }
+      }
+      key="9"
+    />
+    <HeroRow
+      hero={
+        Object {
+          "active": true,
+          "id": 10,
+          "name": "Tony Stark",
+          "persona": "Iron Man",
+        }
+      }
+      key="10"
+    />
+  </tbody>
+</table>
+`;
