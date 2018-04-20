@@ -4,8 +4,13 @@ import { shallow } from 'enzyme';
 import { shallowToJson } from 'enzyme-to-json';
 
 describe("HeroRow", () => {
+    let hero;
+
+    beforeEach(() => {
+        hero = { id: 1, name: "Konrad Sanro", persona: "Retwoner", active: false };
+    });
+
     it("renders correctly", () => {
-        const hero = { id: 1, name: "Konrad Sanro", persona: "Retwoner", active: false };
         const component = shallow(
             <HeroRow hero={hero} key={hero.id} />
         );
@@ -13,12 +18,11 @@ describe("HeroRow", () => {
     });
 
     it("calls the passed select method", () => {
-        const hero = { id: 1, name: "Konrad Sanro", persona: "Retwoner", active: false };
         const handleSelect = jest.fn();
         const component = shallow(
             <HeroRow hero={hero} key={hero.id} onSelect={handleSelect} />
         );
         component.find("input").simulate("change");
-        expect(handleSelect).toHaveBeenCalledWith(hero);
+        expect(handleSelect).toBeCalledWith(hero);
     });
 })
