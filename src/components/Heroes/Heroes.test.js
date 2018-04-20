@@ -1,6 +1,6 @@
 import React from 'react';
-import HeroTable from './HeroTable';
-import { shallow } from 'enzyme';
+import Heroes from './Heroes';
+import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
 describe("HeroTable", () => {
@@ -21,38 +21,32 @@ describe("HeroTable", () => {
         ];
     });
 
-    it("renders correctly", () => {
-        const component = shallow(
-            <HeroTable heroes={heroList} />
+    it("sorts", () => {
+        const component = mount(
+            <Heroes list={heroList} />
         );
+        expect(toJson(component)).toMatchSnapshot();
+
+        // Sort by id
+        component.find("thead td").at(1).simulate("click");
+        expect(toJson(component)).toMatchSnapshot();
+
+        // Sort by name
+        component.find("thead td").at(2).simulate("click");
+        expect(toJson(component)).toMatchSnapshot();
+
+        // Sort by persona
+        component.find("thead td").at(3).simulate("click");
         expect(toJson(component)).toMatchSnapshot();
     });
 
-    it("calls the passed sort method", () => {
-        const sortBy = jest.fn();
-
-        const component = shallow(
-            <HeroTable heroes={heroList} onSort={sortBy} />
+    it("selects", () => {
+        const component = mount(
+            <Heroes list={heroList} />
         );
 
-        // Sort by select checkbox
-        component.find("td").at(0).simulate("click");
-        expect(sortBy).not.toBeCalled();
-
-        // Sort by status
-        component.find("td").at(4).simulate("click");
-        expect(sortBy).not.toBeCalled();
-
-        // Sort by id
-        component.find("td").at(1).simulate("click");
-        expect(sortBy).lastCalledWith("id");
-
-        // Sort by name
-        component.find("td").at(2).simulate("click");
-        expect(sortBy).lastCalledWith("name");
-
-        // Sort by persona
-        component.find("td").at(3).simulate("click");
-        expect(sortBy).lastCalledWith("persona");
+        component.find("tbody tr").at(0).find("input").simulate("change");
+        component.find("tbody tr").at(3).find("input").simulate("change");
+        expect(toJson(component)).toMatchSnapshot();
     });
 })

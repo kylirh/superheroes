@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroRow from './HeroRow';
 import { shallow } from 'enzyme';
-import { shallowToJson } from 'enzyme-to-json';
+import toJson from 'enzyme-to-json';
 
 describe("HeroRow", () => {
     let hero;
@@ -14,7 +14,7 @@ describe("HeroRow", () => {
         const component = shallow(
             <HeroRow hero={hero} key={hero.id} />
         );
-        expect(shallowToJson(component)).toMatchSnapshot();
+        expect(toJson(component)).toMatchSnapshot();
     });
 
     it("calls the passed select method", () => {

@@ -1,0 +1,3171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroTable selects 1`] = `
+<Heroes
+  list={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Konrad Sanro",
+        "persona": "Retwoner",
+        "selected": true,
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Rowan Bredal",
+        "persona": "Hyprona",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Ulani Kywann",
+        "persona": "The Archkay",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Broadrick Ikon",
+        "persona": "E-NINJA",
+        "selected": true,
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Stuard Jedrek",
+        "persona": "Blades",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 6,
+        "name": "Bruce Wayne",
+        "persona": "Batman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 7,
+        "name": "Clark Kent",
+        "persona": "Superman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 8,
+        "name": "Logan",
+        "persona": "Wolverine",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 9,
+        "name": "Peter Parker",
+        "persona": "Spider Man",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 10,
+        "name": "Tony Stark",
+        "persona": "Iron Man",
+        "selected": false,
+      },
+    ]
+  }
+>
+  <div
+    className="heroes"
+  >
+    <HeroTable
+      heroes={
+        Array [
+          Object {
+            "active": false,
+            "id": 4,
+            "name": "Broadrick Ikon",
+            "persona": "E-NINJA",
+            "selected": true,
+          },
+          Object {
+            "active": true,
+            "id": 6,
+            "name": "Bruce Wayne",
+            "persona": "Batman",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 7,
+            "name": "Clark Kent",
+            "persona": "Superman",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 1,
+            "name": "Konrad Sanro",
+            "persona": "Retwoner",
+            "selected": true,
+          },
+          Object {
+            "active": true,
+            "id": 8,
+            "name": "Logan",
+            "persona": "Wolverine",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 9,
+            "name": "Peter Parker",
+            "persona": "Spider Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 2,
+            "name": "Rowan Bredal",
+            "persona": "Hyprona",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 5,
+            "name": "Stuard Jedrek",
+            "persona": "Blades",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 10,
+            "name": "Tony Stark",
+            "persona": "Iron Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 3,
+            "name": "Ulani Kywann",
+            "persona": "The Archkay",
+            "selected": false,
+          },
+        ]
+      }
+      onSelect={[Function]}
+      onSort={[Function]}
+    >
+      <table
+        className="hero-table"
+      >
+        <thead
+          className="hero-table-header"
+        >
+          <tr>
+            <td />
+            <td
+              className="cell-center sortable"
+              onClick={[Function]}
+            >
+              ID
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Name
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Persona
+            </td>
+            <td>
+              Status
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 4,
+                "name": "Broadrick Ikon",
+                "persona": "E-NINJA",
+                "selected": true,
+              }
+            }
+            key="4"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row row-selected"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={true}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                4
+              </td>
+              <td>
+                Broadrick Ikon
+              </td>
+              <td>
+                E-NINJA
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 6,
+                "name": "Bruce Wayne",
+                "persona": "Batman",
+                "selected": false,
+              }
+            }
+            key="6"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                6
+              </td>
+              <td>
+                Bruce Wayne
+              </td>
+              <td>
+                Batman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 7,
+                "name": "Clark Kent",
+                "persona": "Superman",
+                "selected": false,
+              }
+            }
+            key="7"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                7
+              </td>
+              <td>
+                Clark Kent
+              </td>
+              <td>
+                Superman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 1,
+                "name": "Konrad Sanro",
+                "persona": "Retwoner",
+                "selected": true,
+              }
+            }
+            key="1"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row row-selected"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={true}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                1
+              </td>
+              <td>
+                Konrad Sanro
+              </td>
+              <td>
+                Retwoner
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 8,
+                "name": "Logan",
+                "persona": "Wolverine",
+                "selected": false,
+              }
+            }
+            key="8"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                8
+              </td>
+              <td>
+                Logan
+              </td>
+              <td>
+                Wolverine
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 9,
+                "name": "Peter Parker",
+                "persona": "Spider Man",
+                "selected": false,
+              }
+            }
+            key="9"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                9
+              </td>
+              <td>
+                Peter Parker
+              </td>
+              <td>
+                Spider Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 2,
+                "name": "Rowan Bredal",
+                "persona": "Hyprona",
+                "selected": false,
+              }
+            }
+            key="2"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                2
+              </td>
+              <td>
+                Rowan Bredal
+              </td>
+              <td>
+                Hyprona
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 5,
+                "name": "Stuard Jedrek",
+                "persona": "Blades",
+                "selected": false,
+              }
+            }
+            key="5"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                5
+              </td>
+              <td>
+                Stuard Jedrek
+              </td>
+              <td>
+                Blades
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 10,
+                "name": "Tony Stark",
+                "persona": "Iron Man",
+                "selected": false,
+              }
+            }
+            key="10"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                10
+              </td>
+              <td>
+                Tony Stark
+              </td>
+              <td>
+                Iron Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 3,
+                "name": "Ulani Kywann",
+                "persona": "The Archkay",
+                "selected": false,
+              }
+            }
+            key="3"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                3
+              </td>
+              <td>
+                Ulani Kywann
+              </td>
+              <td>
+                The Archkay
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+        </tbody>
+      </table>
+    </HeroTable>
+    <HeroToolbar
+      onFilter={[Function]}
+      onShowEmail={[Function]}
+      showInactive={true}
+    >
+      <div
+        className="hero-toolbar"
+      >
+        <input
+          checked={true}
+          id="show-inactive-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="show-inactive-checkbox"
+        >
+          Show Inactive Heroes
+        </label>
+        <button
+          className="email-button"
+          onClick={[Function]}
+        >
+          Email Superheroes
+        </button>
+      </div>
+    </HeroToolbar>
+  </div>
+</Heroes>
+`;
+
+exports[`HeroTable sorts 1`] = `
+<Heroes
+  list={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Konrad Sanro",
+        "persona": "Retwoner",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Rowan Bredal",
+        "persona": "Hyprona",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Ulani Kywann",
+        "persona": "The Archkay",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Broadrick Ikon",
+        "persona": "E-NINJA",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Stuard Jedrek",
+        "persona": "Blades",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 6,
+        "name": "Bruce Wayne",
+        "persona": "Batman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 7,
+        "name": "Clark Kent",
+        "persona": "Superman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 8,
+        "name": "Logan",
+        "persona": "Wolverine",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 9,
+        "name": "Peter Parker",
+        "persona": "Spider Man",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 10,
+        "name": "Tony Stark",
+        "persona": "Iron Man",
+        "selected": false,
+      },
+    ]
+  }
+>
+  <div
+    className="heroes"
+  >
+    <HeroTable
+      heroes={
+        Array [
+          Object {
+            "active": false,
+            "id": 4,
+            "name": "Broadrick Ikon",
+            "persona": "E-NINJA",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 6,
+            "name": "Bruce Wayne",
+            "persona": "Batman",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 7,
+            "name": "Clark Kent",
+            "persona": "Superman",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 1,
+            "name": "Konrad Sanro",
+            "persona": "Retwoner",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 8,
+            "name": "Logan",
+            "persona": "Wolverine",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 9,
+            "name": "Peter Parker",
+            "persona": "Spider Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 2,
+            "name": "Rowan Bredal",
+            "persona": "Hyprona",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 5,
+            "name": "Stuard Jedrek",
+            "persona": "Blades",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 10,
+            "name": "Tony Stark",
+            "persona": "Iron Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 3,
+            "name": "Ulani Kywann",
+            "persona": "The Archkay",
+            "selected": false,
+          },
+        ]
+      }
+      onSelect={[Function]}
+      onSort={[Function]}
+    >
+      <table
+        className="hero-table"
+      >
+        <thead
+          className="hero-table-header"
+        >
+          <tr>
+            <td />
+            <td
+              className="cell-center sortable"
+              onClick={[Function]}
+            >
+              ID
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Name
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Persona
+            </td>
+            <td>
+              Status
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 4,
+                "name": "Broadrick Ikon",
+                "persona": "E-NINJA",
+                "selected": false,
+              }
+            }
+            key="4"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                4
+              </td>
+              <td>
+                Broadrick Ikon
+              </td>
+              <td>
+                E-NINJA
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 6,
+                "name": "Bruce Wayne",
+                "persona": "Batman",
+                "selected": false,
+              }
+            }
+            key="6"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                6
+              </td>
+              <td>
+                Bruce Wayne
+              </td>
+              <td>
+                Batman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 7,
+                "name": "Clark Kent",
+                "persona": "Superman",
+                "selected": false,
+              }
+            }
+            key="7"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                7
+              </td>
+              <td>
+                Clark Kent
+              </td>
+              <td>
+                Superman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 1,
+                "name": "Konrad Sanro",
+                "persona": "Retwoner",
+                "selected": false,
+              }
+            }
+            key="1"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                1
+              </td>
+              <td>
+                Konrad Sanro
+              </td>
+              <td>
+                Retwoner
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 8,
+                "name": "Logan",
+                "persona": "Wolverine",
+                "selected": false,
+              }
+            }
+            key="8"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                8
+              </td>
+              <td>
+                Logan
+              </td>
+              <td>
+                Wolverine
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 9,
+                "name": "Peter Parker",
+                "persona": "Spider Man",
+                "selected": false,
+              }
+            }
+            key="9"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                9
+              </td>
+              <td>
+                Peter Parker
+              </td>
+              <td>
+                Spider Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 2,
+                "name": "Rowan Bredal",
+                "persona": "Hyprona",
+                "selected": false,
+              }
+            }
+            key="2"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                2
+              </td>
+              <td>
+                Rowan Bredal
+              </td>
+              <td>
+                Hyprona
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 5,
+                "name": "Stuard Jedrek",
+                "persona": "Blades",
+                "selected": false,
+              }
+            }
+            key="5"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                5
+              </td>
+              <td>
+                Stuard Jedrek
+              </td>
+              <td>
+                Blades
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 10,
+                "name": "Tony Stark",
+                "persona": "Iron Man",
+                "selected": false,
+              }
+            }
+            key="10"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                10
+              </td>
+              <td>
+                Tony Stark
+              </td>
+              <td>
+                Iron Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 3,
+                "name": "Ulani Kywann",
+                "persona": "The Archkay",
+                "selected": false,
+              }
+            }
+            key="3"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                3
+              </td>
+              <td>
+                Ulani Kywann
+              </td>
+              <td>
+                The Archkay
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+        </tbody>
+      </table>
+    </HeroTable>
+    <HeroToolbar
+      onFilter={[Function]}
+      onShowEmail={[Function]}
+      showInactive={true}
+    >
+      <div
+        className="hero-toolbar"
+      >
+        <input
+          checked={true}
+          id="show-inactive-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="show-inactive-checkbox"
+        >
+          Show Inactive Heroes
+        </label>
+        <button
+          className="email-button"
+          onClick={[Function]}
+        >
+          Email Superheroes
+        </button>
+      </div>
+    </HeroToolbar>
+  </div>
+</Heroes>
+`;
+
+exports[`HeroTable sorts 2`] = `
+<Heroes
+  list={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Konrad Sanro",
+        "persona": "Retwoner",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Rowan Bredal",
+        "persona": "Hyprona",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Ulani Kywann",
+        "persona": "The Archkay",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Broadrick Ikon",
+        "persona": "E-NINJA",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Stuard Jedrek",
+        "persona": "Blades",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 6,
+        "name": "Bruce Wayne",
+        "persona": "Batman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 7,
+        "name": "Clark Kent",
+        "persona": "Superman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 8,
+        "name": "Logan",
+        "persona": "Wolverine",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 9,
+        "name": "Peter Parker",
+        "persona": "Spider Man",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 10,
+        "name": "Tony Stark",
+        "persona": "Iron Man",
+        "selected": false,
+      },
+    ]
+  }
+>
+  <div
+    className="heroes"
+  >
+    <HeroTable
+      heroes={
+        Array [
+          Object {
+            "active": false,
+            "id": 1,
+            "name": "Konrad Sanro",
+            "persona": "Retwoner",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 2,
+            "name": "Rowan Bredal",
+            "persona": "Hyprona",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 3,
+            "name": "Ulani Kywann",
+            "persona": "The Archkay",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 4,
+            "name": "Broadrick Ikon",
+            "persona": "E-NINJA",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 5,
+            "name": "Stuard Jedrek",
+            "persona": "Blades",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 6,
+            "name": "Bruce Wayne",
+            "persona": "Batman",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 7,
+            "name": "Clark Kent",
+            "persona": "Superman",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 8,
+            "name": "Logan",
+            "persona": "Wolverine",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 9,
+            "name": "Peter Parker",
+            "persona": "Spider Man",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 10,
+            "name": "Tony Stark",
+            "persona": "Iron Man",
+            "selected": false,
+          },
+        ]
+      }
+      onSelect={[Function]}
+      onSort={[Function]}
+    >
+      <table
+        className="hero-table"
+      >
+        <thead
+          className="hero-table-header"
+        >
+          <tr>
+            <td />
+            <td
+              className="cell-center sortable"
+              onClick={[Function]}
+            >
+              ID
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Name
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Persona
+            </td>
+            <td>
+              Status
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 1,
+                "name": "Konrad Sanro",
+                "persona": "Retwoner",
+                "selected": false,
+              }
+            }
+            key="1"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                1
+              </td>
+              <td>
+                Konrad Sanro
+              </td>
+              <td>
+                Retwoner
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 2,
+                "name": "Rowan Bredal",
+                "persona": "Hyprona",
+                "selected": false,
+              }
+            }
+            key="2"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                2
+              </td>
+              <td>
+                Rowan Bredal
+              </td>
+              <td>
+                Hyprona
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 3,
+                "name": "Ulani Kywann",
+                "persona": "The Archkay",
+                "selected": false,
+              }
+            }
+            key="3"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                3
+              </td>
+              <td>
+                Ulani Kywann
+              </td>
+              <td>
+                The Archkay
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 4,
+                "name": "Broadrick Ikon",
+                "persona": "E-NINJA",
+                "selected": false,
+              }
+            }
+            key="4"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                4
+              </td>
+              <td>
+                Broadrick Ikon
+              </td>
+              <td>
+                E-NINJA
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 5,
+                "name": "Stuard Jedrek",
+                "persona": "Blades",
+                "selected": false,
+              }
+            }
+            key="5"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                5
+              </td>
+              <td>
+                Stuard Jedrek
+              </td>
+              <td>
+                Blades
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 6,
+                "name": "Bruce Wayne",
+                "persona": "Batman",
+                "selected": false,
+              }
+            }
+            key="6"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                6
+              </td>
+              <td>
+                Bruce Wayne
+              </td>
+              <td>
+                Batman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 7,
+                "name": "Clark Kent",
+                "persona": "Superman",
+                "selected": false,
+              }
+            }
+            key="7"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                7
+              </td>
+              <td>
+                Clark Kent
+              </td>
+              <td>
+                Superman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 8,
+                "name": "Logan",
+                "persona": "Wolverine",
+                "selected": false,
+              }
+            }
+            key="8"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                8
+              </td>
+              <td>
+                Logan
+              </td>
+              <td>
+                Wolverine
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 9,
+                "name": "Peter Parker",
+                "persona": "Spider Man",
+                "selected": false,
+              }
+            }
+            key="9"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                9
+              </td>
+              <td>
+                Peter Parker
+              </td>
+              <td>
+                Spider Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 10,
+                "name": "Tony Stark",
+                "persona": "Iron Man",
+                "selected": false,
+              }
+            }
+            key="10"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                10
+              </td>
+              <td>
+                Tony Stark
+              </td>
+              <td>
+                Iron Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+        </tbody>
+      </table>
+    </HeroTable>
+    <HeroToolbar
+      onFilter={[Function]}
+      onShowEmail={[Function]}
+      showInactive={true}
+    >
+      <div
+        className="hero-toolbar"
+      >
+        <input
+          checked={true}
+          id="show-inactive-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="show-inactive-checkbox"
+        >
+          Show Inactive Heroes
+        </label>
+        <button
+          className="email-button"
+          onClick={[Function]}
+        >
+          Email Superheroes
+        </button>
+      </div>
+    </HeroToolbar>
+  </div>
+</Heroes>
+`;
+
+exports[`HeroTable sorts 3`] = `
+<Heroes
+  list={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Konrad Sanro",
+        "persona": "Retwoner",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Rowan Bredal",
+        "persona": "Hyprona",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Ulani Kywann",
+        "persona": "The Archkay",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Broadrick Ikon",
+        "persona": "E-NINJA",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Stuard Jedrek",
+        "persona": "Blades",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 6,
+        "name": "Bruce Wayne",
+        "persona": "Batman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 7,
+        "name": "Clark Kent",
+        "persona": "Superman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 8,
+        "name": "Logan",
+        "persona": "Wolverine",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 9,
+        "name": "Peter Parker",
+        "persona": "Spider Man",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 10,
+        "name": "Tony Stark",
+        "persona": "Iron Man",
+        "selected": false,
+      },
+    ]
+  }
+>
+  <div
+    className="heroes"
+  >
+    <HeroTable
+      heroes={
+        Array [
+          Object {
+            "active": false,
+            "id": 4,
+            "name": "Broadrick Ikon",
+            "persona": "E-NINJA",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 6,
+            "name": "Bruce Wayne",
+            "persona": "Batman",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 7,
+            "name": "Clark Kent",
+            "persona": "Superman",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 1,
+            "name": "Konrad Sanro",
+            "persona": "Retwoner",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 8,
+            "name": "Logan",
+            "persona": "Wolverine",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 9,
+            "name": "Peter Parker",
+            "persona": "Spider Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 2,
+            "name": "Rowan Bredal",
+            "persona": "Hyprona",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 5,
+            "name": "Stuard Jedrek",
+            "persona": "Blades",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 10,
+            "name": "Tony Stark",
+            "persona": "Iron Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 3,
+            "name": "Ulani Kywann",
+            "persona": "The Archkay",
+            "selected": false,
+          },
+        ]
+      }
+      onSelect={[Function]}
+      onSort={[Function]}
+    >
+      <table
+        className="hero-table"
+      >
+        <thead
+          className="hero-table-header"
+        >
+          <tr>
+            <td />
+            <td
+              className="cell-center sortable"
+              onClick={[Function]}
+            >
+              ID
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Name
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Persona
+            </td>
+            <td>
+              Status
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 4,
+                "name": "Broadrick Ikon",
+                "persona": "E-NINJA",
+                "selected": false,
+              }
+            }
+            key="4"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                4
+              </td>
+              <td>
+                Broadrick Ikon
+              </td>
+              <td>
+                E-NINJA
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 6,
+                "name": "Bruce Wayne",
+                "persona": "Batman",
+                "selected": false,
+              }
+            }
+            key="6"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                6
+              </td>
+              <td>
+                Bruce Wayne
+              </td>
+              <td>
+                Batman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 7,
+                "name": "Clark Kent",
+                "persona": "Superman",
+                "selected": false,
+              }
+            }
+            key="7"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                7
+              </td>
+              <td>
+                Clark Kent
+              </td>
+              <td>
+                Superman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 1,
+                "name": "Konrad Sanro",
+                "persona": "Retwoner",
+                "selected": false,
+              }
+            }
+            key="1"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                1
+              </td>
+              <td>
+                Konrad Sanro
+              </td>
+              <td>
+                Retwoner
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 8,
+                "name": "Logan",
+                "persona": "Wolverine",
+                "selected": false,
+              }
+            }
+            key="8"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                8
+              </td>
+              <td>
+                Logan
+              </td>
+              <td>
+                Wolverine
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 9,
+                "name": "Peter Parker",
+                "persona": "Spider Man",
+                "selected": false,
+              }
+            }
+            key="9"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                9
+              </td>
+              <td>
+                Peter Parker
+              </td>
+              <td>
+                Spider Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 2,
+                "name": "Rowan Bredal",
+                "persona": "Hyprona",
+                "selected": false,
+              }
+            }
+            key="2"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                2
+              </td>
+              <td>
+                Rowan Bredal
+              </td>
+              <td>
+                Hyprona
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 5,
+                "name": "Stuard Jedrek",
+                "persona": "Blades",
+                "selected": false,
+              }
+            }
+            key="5"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                5
+              </td>
+              <td>
+                Stuard Jedrek
+              </td>
+              <td>
+                Blades
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 10,
+                "name": "Tony Stark",
+                "persona": "Iron Man",
+                "selected": false,
+              }
+            }
+            key="10"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                10
+              </td>
+              <td>
+                Tony Stark
+              </td>
+              <td>
+                Iron Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 3,
+                "name": "Ulani Kywann",
+                "persona": "The Archkay",
+                "selected": false,
+              }
+            }
+            key="3"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                3
+              </td>
+              <td>
+                Ulani Kywann
+              </td>
+              <td>
+                The Archkay
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+        </tbody>
+      </table>
+    </HeroTable>
+    <HeroToolbar
+      onFilter={[Function]}
+      onShowEmail={[Function]}
+      showInactive={true}
+    >
+      <div
+        className="hero-toolbar"
+      >
+        <input
+          checked={true}
+          id="show-inactive-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="show-inactive-checkbox"
+        >
+          Show Inactive Heroes
+        </label>
+        <button
+          className="email-button"
+          onClick={[Function]}
+        >
+          Email Superheroes
+        </button>
+      </div>
+    </HeroToolbar>
+  </div>
+</Heroes>
+`;
+
+exports[`HeroTable sorts 4`] = `
+<Heroes
+  list={
+    Array [
+      Object {
+        "active": false,
+        "id": 1,
+        "name": "Konrad Sanro",
+        "persona": "Retwoner",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 2,
+        "name": "Rowan Bredal",
+        "persona": "Hyprona",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "Ulani Kywann",
+        "persona": "The Archkay",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "Broadrick Ikon",
+        "persona": "E-NINJA",
+        "selected": false,
+      },
+      Object {
+        "active": false,
+        "id": 5,
+        "name": "Stuard Jedrek",
+        "persona": "Blades",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 6,
+        "name": "Bruce Wayne",
+        "persona": "Batman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 7,
+        "name": "Clark Kent",
+        "persona": "Superman",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 8,
+        "name": "Logan",
+        "persona": "Wolverine",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 9,
+        "name": "Peter Parker",
+        "persona": "Spider Man",
+        "selected": false,
+      },
+      Object {
+        "active": true,
+        "id": 10,
+        "name": "Tony Stark",
+        "persona": "Iron Man",
+        "selected": false,
+      },
+    ]
+  }
+>
+  <div
+    className="heroes"
+  >
+    <HeroTable
+      heroes={
+        Array [
+          Object {
+            "active": true,
+            "id": 6,
+            "name": "Bruce Wayne",
+            "persona": "Batman",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 5,
+            "name": "Stuard Jedrek",
+            "persona": "Blades",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 4,
+            "name": "Broadrick Ikon",
+            "persona": "E-NINJA",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 2,
+            "name": "Rowan Bredal",
+            "persona": "Hyprona",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 10,
+            "name": "Tony Stark",
+            "persona": "Iron Man",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 1,
+            "name": "Konrad Sanro",
+            "persona": "Retwoner",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 9,
+            "name": "Peter Parker",
+            "persona": "Spider Man",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 7,
+            "name": "Clark Kent",
+            "persona": "Superman",
+            "selected": false,
+          },
+          Object {
+            "active": false,
+            "id": 3,
+            "name": "Ulani Kywann",
+            "persona": "The Archkay",
+            "selected": false,
+          },
+          Object {
+            "active": true,
+            "id": 8,
+            "name": "Logan",
+            "persona": "Wolverine",
+            "selected": false,
+          },
+        ]
+      }
+      onSelect={[Function]}
+      onSort={[Function]}
+    >
+      <table
+        className="hero-table"
+      >
+        <thead
+          className="hero-table-header"
+        >
+          <tr>
+            <td />
+            <td
+              className="cell-center sortable"
+              onClick={[Function]}
+            >
+              ID
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Name
+            </td>
+            <td
+              className="sortable"
+              onClick={[Function]}
+            >
+              Persona
+            </td>
+            <td>
+              Status
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 6,
+                "name": "Bruce Wayne",
+                "persona": "Batman",
+                "selected": false,
+              }
+            }
+            key="6"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                6
+              </td>
+              <td>
+                Bruce Wayne
+              </td>
+              <td>
+                Batman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 5,
+                "name": "Stuard Jedrek",
+                "persona": "Blades",
+                "selected": false,
+              }
+            }
+            key="5"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                5
+              </td>
+              <td>
+                Stuard Jedrek
+              </td>
+              <td>
+                Blades
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 4,
+                "name": "Broadrick Ikon",
+                "persona": "E-NINJA",
+                "selected": false,
+              }
+            }
+            key="4"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                4
+              </td>
+              <td>
+                Broadrick Ikon
+              </td>
+              <td>
+                E-NINJA
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 2,
+                "name": "Rowan Bredal",
+                "persona": "Hyprona",
+                "selected": false,
+              }
+            }
+            key="2"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                2
+              </td>
+              <td>
+                Rowan Bredal
+              </td>
+              <td>
+                Hyprona
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 10,
+                "name": "Tony Stark",
+                "persona": "Iron Man",
+                "selected": false,
+              }
+            }
+            key="10"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                10
+              </td>
+              <td>
+                Tony Stark
+              </td>
+              <td>
+                Iron Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 1,
+                "name": "Konrad Sanro",
+                "persona": "Retwoner",
+                "selected": false,
+              }
+            }
+            key="1"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                1
+              </td>
+              <td>
+                Konrad Sanro
+              </td>
+              <td>
+                Retwoner
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 9,
+                "name": "Peter Parker",
+                "persona": "Spider Man",
+                "selected": false,
+              }
+            }
+            key="9"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                9
+              </td>
+              <td>
+                Peter Parker
+              </td>
+              <td>
+                Spider Man
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 7,
+                "name": "Clark Kent",
+                "persona": "Superman",
+                "selected": false,
+              }
+            }
+            key="7"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                7
+              </td>
+              <td>
+                Clark Kent
+              </td>
+              <td>
+                Superman
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": false,
+                "id": 3,
+                "name": "Ulani Kywann",
+                "persona": "The Archkay",
+                "selected": false,
+              }
+            }
+            key="3"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                3
+              </td>
+              <td>
+                Ulani Kywann
+              </td>
+              <td>
+                The Archkay
+              </td>
+              <td>
+                Inactive
+              </td>
+            </tr>
+          </HeroRow>
+          <HeroRow
+            hero={
+              Object {
+                "active": true,
+                "id": 8,
+                "name": "Logan",
+                "persona": "Wolverine",
+                "selected": false,
+              }
+            }
+            key="8"
+            onSelect={[Function]}
+          >
+            <tr
+              className="hero-row"
+            >
+              <td
+                className="cell-center"
+              >
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </td>
+              <td
+                className="cell-center"
+              >
+                8
+              </td>
+              <td>
+                Logan
+              </td>
+              <td>
+                Wolverine
+              </td>
+              <td>
+                Active
+              </td>
+            </tr>
+          </HeroRow>
+        </tbody>
+      </table>
+    </HeroTable>
+    <HeroToolbar
+      onFilter={[Function]}
+      onShowEmail={[Function]}
+      showInactive={true}
+    >
+      <div
+        className="hero-toolbar"
+      >
+        <input
+          checked={true}
+          id="show-inactive-checkbox"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="show-inactive-checkbox"
+        >
+          Show Inactive Heroes
+        </label>
+        <button
+          className="email-button"
+          onClick={[Function]}
+        >
+          Email Superheroes
+        </button>
+      </div>
+    </HeroToolbar>
+  </div>
+</Heroes>
+`;
